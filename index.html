@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link
+  rel="stylesheet"
+  href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./Assets/CSS/styling.css">
+  <title>Quiz</title>
+</head>
+<body>
+
+  <div id="quiz-container">
+    <h1>Multiple Choice Quiz</h1>
+    <div id="question-container"></div>
+    <div id="options-container"></div>
+    <button id="next-button" onclick="nextQuestion()">Next</button>
+    <div id="timer">Time: <span id="time"></span> seconds</div>
+  </div>
+
+  <div id="user-score-container">
+    <div id="leaderboard"></div>
+      <ul id="scores"></ul>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="Assets/JS/script.js"></script>
+</body>
+</html>

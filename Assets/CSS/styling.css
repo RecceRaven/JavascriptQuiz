@@ -1,0 +1,132 @@
+:root {
+  --teal: #02e6ff;
+  --purpblue: #4502ff;
+
+}
+
+body { 
+    font-family: 'Luckiest Guy', cursive;
+    background-color: #454545;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  #quiz-container {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color:antiquewhite;
+    font-size: larger;
+    box-shadow: 5px 5px 15px 5px #1DD0FF;
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  #question-container {
+    font-size: x-large;
+    padding: 20px;
+    color: var(--teal);
+  }
+  
+  #options-container button {
+    margin: 5px;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    font-size: large;
+    border-radius: 10px;
+    
+  }
+
+  #options-container button:hover {
+    /*background-color: var(--teal);
+    color: antiquewhite;*/
+    margin: 5px;
+    padding: 10px;
+    width: 150px;
+    border-style: none;
+    border-radius: 10px;
+    transition-duration: 250ms;
+    box-shadow: inset 4px 2px 15px 5px #1DD0FF;
+  }
+  
+
+  
+  #next-button {
+    background-color: #4502ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  #next-button:hover {
+    background-color: antiquewhite;
+    color: var(--purpblue);
+    transition-duration: 250ms;
+  }
+  
+  #timer {
+    margin-top: 10px;
+  }
+
+  #user-score-container {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color:antiquewhite;
+    font-size: larger;
+    position: relative;
+    width: 50%;
+    display: block;
+    box-shadow: 5px 5px 15px 5px #1DD0FF;
+
+  }
+
+  #leaderboard {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+
+  #leaderboard h2 {
+    color: #333;
+  }
+
+  #scores {
+    list-style: none;
+    padding: 0;
+  }
+
+  .score {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
