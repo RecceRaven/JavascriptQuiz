@@ -14,8 +14,10 @@ Upon starting the quiz, the user will have 60 seconds to answer a set amount of 
 
 ##Screenshots
 
+![quiz](https://github.com/RecceRaven/JavascriptQuiz/assets/149850541/5979b6ae-4f4f-4494-b21f-9a4e1736cfc6)
 
 
 
 ## Additional Resources
 
+Link to quiz: https://recceraven.github.io/JavascriptQuiz/
